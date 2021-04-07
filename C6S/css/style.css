@@ -1,0 +1,25 @@
+@font-face{
+    font-family: 'KGChasingCars';
+    src: local("/font/KGChasingCars"),
+    url(/font/KGChasingCars.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-color: #FEC7B7;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    font-size: 16px;
+}
+h1{
+    font-family: 'KGChasingCars';
+    font-size: 70px;
+}
+.banner{
+    background-image: url(/img/lemon-pie2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 343px;
+    color: white;
+}
