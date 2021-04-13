@@ -59,6 +59,7 @@ article{
 }
 .imgBackB{
     background-image: url('../img/bg-batman.jpg');
+    background-position: 150%;
     top: 269px;
 }
 .imgBackM{
@@ -88,14 +89,17 @@ article{
 }
 .imgFrontB{
     background-image: url('../img/batman.jpg');
+    background-position: 60%;
     top: 450px;
 }
 .imgFrontM{
     background-image: url('../img/wonderw.jpg');
+    background-position: 50%;
     top: 1484px;
 }
 .imgFrontS{
     background-image: url('../img/superman.jpg');
+    background-position: 48%;
     top: 2499px;
 }
 .imgFrontStyle{
@@ -124,7 +128,7 @@ button{
     position: absolute;
     top: 330px;
     left: 445px;
-    font-size: 52px;
+    font-size: 45px;
     z-index: 170;
     color: red;
 }
